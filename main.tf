@@ -2,7 +2,7 @@
 # For information about validating this Terraform code, see https://developer.hashicorp.com/terraform/tutorials/gcp-get-started/google-cloud-platform-build#format-and-validate-the-configuration
 
 resource "google_compute_instance" "tomj-artifactory-4" {
-  provider = "google"
+  provider = google
 
   boot_disk {
     auto_delete = true
